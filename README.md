@@ -1,4 +1,5 @@
 # periodic-and-probabilistic-checkpoints
+# LIMITATION OF CHECKPOINTS STORAGE SPACE IN AN OPTIMISTIC DISTRIBUTED SIMULATION
 
 DCB is a prototype of a backbone to distributed and heterogeneous discrete event simulations. It's designed to support execution of simulation models divided into different nodes of a network. A behavior model can be divided into chunks and distributed among the nodes. Both updating model and synchronising barrier is performed in a distributed way. 
 
@@ -7,6 +8,8 @@ This code has been used by undergraduate students to study the architecture of t
 You should go for yourself or mail me if you want to learn how to build different models. 
 
 # 1 - Compilation
+
+Be sure you are using java version 1.8
 
 At a linux terminal, navigate to the created repository and run $ make to compile the project. 
 
