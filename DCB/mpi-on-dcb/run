@@ -1,0 +1,11 @@
+#!/bin/bash
+
+xterm -geometry 90x30+0+0 -hold -e "java -classpath bin/ DCBMThread chat6.xml" & sleep 2
+xterm -geometry 90x30+0+350 -hold -e "java -classpath bin/ DCBMThread chat7.xml" & sleep 2
+xterm -geometry 90x30+850+0 -hold -e "java -classpath bin/ DCBMThread chat8.xml" & sleep 2
+xterm -geometry 90x30+850+350 -hold -e "java -classpath bin/ DCBMThread chat9.xml" & sleep 3
+xterm -geometry 90x30+400+200 -hold -e "java -classpath bin/ DCBMThread chat5.xml"
+
+
+
+

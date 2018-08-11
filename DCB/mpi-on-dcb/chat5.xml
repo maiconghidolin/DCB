@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CONFIG>
+  <INFO federateid="5" federationid="1" localport="4004" type="asynchronous">
+    <ATTRIBUTE id="1.6" name="message_sent" type="String">
+      <DESTINATION federationid="1" federateid="6" attribute="2.0" />
+    </ATTRIBUTE>
+    <ATTRIBUTE id="1.7" name="message_sent" type="String">
+      <DESTINATION federationid="1" federateid="7" attribute="2.0" />
+    </ATTRIBUTE>
+    <ATTRIBUTE id="1.8" name="message_sent" type="String">
+      <DESTINATION federationid="1" federateid="8" attribute="2.0" />
+    </ATTRIBUTE>
+    <ATTRIBUTE id="1.9" name="message_sent" type="String">
+      <DESTINATION federationid="1" federateid="9" attribute="2.0" />
+    </ATTRIBUTE>
+    <ATTRIBUTE id="444.2" name="port" type="String">
+      <DESTINATION federationid="1" federateid="444" attribute="444.2" />
+    </ATTRIBUTE>
+    <ATTRIBUTE id="444.1" name="port" type="String" />   
+    <ATTRIBUTE id="2.0" name="message_received" type="String"/>
+    <ATTRIBUTE id="4.0" name="anti_message_received_recovery_line" type="String"/>
+    <ATTRIBUTE id="5.0" name="invoke_recovery_line" type="String"/>
+  </INFO>
+  <FEDERATION id="1">
+    <FEDERATE id="7" ip="127.0.0.1" port="4006" /> 
+    <FEDERATE id="9" ip="127.0.0.1" port="4008" /> 
+    <FEDERATE id="444" ip="127.0.0.1" port="4444" />    
+    <FEDERATE id="6" ip="127.0.0.1" port="4005" /> 
+    <FEDERATE id="8" ip="127.0.0.1" port="4007" /> 
+  </FEDERATION>
+
+
+</CONFIG>
+

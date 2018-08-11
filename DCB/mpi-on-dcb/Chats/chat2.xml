@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CONFIG>
+  <INFO federateid="6" federationid="2" localport="4005" type="asynchronous">
+    <ATTRIBUTE id="2.0" name="message_received" type="String"/>  
+    <ATTRIBUTE id="1.0" name="message_sent" type="String">
+      <DESTINATION federationid="1" federateid="5" attribute="2.0" />
+    </ATTRIBUTE>
+    <ATTRIBUTE id="444.2" name="port" type="String">
+      <DESTINATION federationid="1" federateid="444" attribute="444.2" />
+    </ATTRIBUTE>
+    <ATTRIBUTE id="444.1" name="port" type="String" />
+    <ATTRIBUTE id="444.3" name="anti_message" type="String" />    
+  </INFO>
+  <FEDERATION id="1">
+    <FEDERATE id="5" ip="127.0.0.1" port="4004" /> 
+    <FEDERATE id="444" ip="127.0.0.1" port="4444" />   
+  </FEDERATION>
+</CONFIG>
+

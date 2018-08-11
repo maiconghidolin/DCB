@@ -1,0 +1,7 @@
+Total de rollbacks realizados: 0
+Total de tempo em rollback: 0
+Total de checkpoints inúteis: 0
+Total de chamadas de checkpoint: 804
+Checkpoint Index: 804
+Checkpoint Index: 804
+DuracaoPT13M24.288S

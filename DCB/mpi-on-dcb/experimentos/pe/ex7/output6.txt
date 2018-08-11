@@ -1,0 +1,7 @@
+Total de rollbacks realizados: 3
+Total de tempo em rollback: 27254
+Total de checkpoints inúteis: 1
+Total de chamadas de checkpoint: 851
+Checkpoint Index: 832
+Checkpoint Index: 816
+DuracaoPT13M46.256S

@@ -1,0 +1,11 @@
+Total de rollbacks realizados: 0
+Total de tempo em rollback: 0
+Total de checkpoints inúteis: 0
+Total de chamadas de checkpoint: 288
+Checkpoint Index: 288
+Checkpoint criados: 288
+Checkpoints mantidos: 8
+Checkpoints recovery line: 15
+Mensagens recebidas: 17
+Mensagens enviadas: 304
+DuracaoPT4M29.098S
